@@ -18,6 +18,7 @@ perceptions) and verifies that numbers are mathematically consistent before mark
 
 Each invoice goes through **two independent text extraction methods** (pdfplumber + DocTR OCR), producing two versions of the raw text. Three LLM agents (each with a different temperature) then process both versions independently, yielding **up to 6 parallel extractions per invoice**.
 
+(CHANGED FOR 8 Agents: 2 multimodals
 ```
 1 PDF  →  2 text sources  ×  3 agents  =  6 independent extractions
                                                       ↓
