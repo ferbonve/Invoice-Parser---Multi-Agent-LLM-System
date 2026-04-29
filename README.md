@@ -12,7 +12,7 @@ perceptions) and verifies that numbers are mathematically consistent before mark
 ## 🏗️ Architecture
 
 <!-- Insert your LangGraph graph image here -->
-![LangGraph Architecture](graph.png)
+![LangGraph Architecture](graph1.png)
 
 ### How the ensemble works
 
