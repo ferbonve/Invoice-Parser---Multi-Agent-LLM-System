@@ -1,3 +1,5 @@
+ASK FOR CODE: ferbonve@gmail.com
+
 # 🧾 Invoice Parser — Multi Agent LLM System
 
 An **LLM ensemble system** for automatically extracting fiscal data from PDF invoices. Built with **LangGraph**, it runs multiple agents in parallel over multiple text sources and aggregates their outputs. It processes batches of documents (invoices, debit/credit notes, receipts)
