@@ -5,6 +5,9 @@ ASK FOR CODE: ferbonve@gmail.com
 An **LLM ensemble system** for automatically extracting fiscal data from PDF invoices. Built with **LangGraph**, it runs multiple agents in parallel over multiple text sources and aggregates their outputs. It processes batches of documents (invoices, debit/credit notes, receipts)
 and returns structured JSON per invoice.
 
+Como los modelos de lenguaje pueden alucinar valores numéricos, diseñé el sistema para ejecutar múltiples métodos de extracción en paralelo, aplicar una instancia de votación entre los resultados de los agentes y sumar una capa de validación matemática que verifica la consistencia de los totales antes de dar un resultado por válido.
+
+
 ---
 
 🎯 What problem does it solve?
