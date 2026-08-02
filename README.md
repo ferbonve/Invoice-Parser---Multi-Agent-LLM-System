@@ -1,7 +1,7 @@
 ASK FOR CODE: ferbonve@gmail.com
 
 > [!NOTE]
-> This README was written with AI assistance for documentation purposes only. The system itself — the ensemble design, the conditional OCR routing, the mathematical validator and the full implementation — was conceived and coded by me. AI was used to save time writing the docs, not to do the engineering.
+> This README was written with AI assistance for documentation purposes only. The the ensemble design, the conditional OCR routing, the mathematical validator and the full implementation was conceived and coded by 50% of me. LLMs were used to save time writing the docs, and support .
 
 # 🧾 Invoice Parser - Multi Agent LLM System
 
