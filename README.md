@@ -19,8 +19,7 @@ Manually entering invoices into an accounting system is slow and error‑prone. 
 
 ## 🏗️ Architecture
 
-![LangGraph Architecture](graph.png)
-
+![LangGraph Architecture](graph1.png)
 ### How the ensemble works
 
 Extraction is now a **routing decision**, not two parallel sources. Each invoice starts with **pdfplumber** text extraction, and a conditional edge decides the path:
