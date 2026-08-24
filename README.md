@@ -92,7 +92,7 @@ class AgentState(TypedDict):
     consenso: dict
 
     agents_config: dict
-
+```
 
 ### Mathematical validator (implemented)
 
