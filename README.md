@@ -13,7 +13,7 @@ Como los modelos de lenguaje pueden alucinar valores numéricos, diseñé el sis
 
 ## 🎯 What problem does it solve?
 
-Manually entering invoices into an accounting system is slow and error‑prone. This agent automates extraction of all relevant fiscal fields for Argentina (taxable bases by VAT rate, VAT amounts, perceptions) and verifies that numbers are mathematically consistent before marking them as valid.
+Manually entering invoices into an accounting system is slow and error‑prone. This agent workflow automates extraction of all relevant fiscal fields for Argentina (taxable bases by VAT rate, VAT amounts, perceptions) and verifies that numbers are mathematically consistent before marking them as valid.
 
 ---
 
