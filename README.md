@@ -67,6 +67,33 @@ This yields **8 independent extractions per invoice**, which are then parsed, no
 
 The temperature variation across the text agents introduces controlled diversity in the outputs, similar to how ensemble methods in ML use multiple models or random seeds to reduce variance and improve robustness.
 
+## 🧠 Agent State
+
+The LangGraph workflow uses a shared `AgentState` to pass data between nodes throughout the pipeline.
+
+```python
+class AgentState(TypedDict):
+
+    messages: Annotated[Sequence[BaseMessage], add_messages]
+
+    pdf_path: str
+
+    text_plumber: str
+    text_ocr: str
+
+    resultados_parciales: Annotated[list[dict], operator.add]
+
+    resultados_parseados_etapa1: Annotated[list[dict], operator.add]
+
+    resultados_parseados_etapa2: Annotated[list[dict], operator.add]
+
+    resultados_finales: Annotated[list[dict], operator.add]
+
+    consenso: dict
+
+    agents_config: dict
+
+
 ### Mathematical validator (implemented)
 
 After parsing, the **`Verificador Mat`** node checks each extraction for internal consistency before it is accepted:
